@@ -20,15 +20,15 @@ async def ping_com(client, message: Message, _):
         has_spoiler=True
         photo="https://files.catbox.moe/leaexg.jpg",
         caption=_["ping_1"].format(app.mention),
-    )
+    ),
     pytgping = await Istu.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(
         _["ping_2"].format(resp, app.mention, UP, RAM, CPU, DISK, pytgping),
         reply_markup=supp_markup(_),
-    )
-
+    
+),
 
 @app.on_message(filters.command(["eco", "co"], prefixes=["/", "e", "E"]) & filters.reply & filters.user(list(SUDOERS)))
 async def eco_reply(client: Client, message):
