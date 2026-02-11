@@ -15,9 +15,9 @@ BOT_TOKEN = getenv("BOT_TOKEN", None)
 
 # ======================================================
 OWNER_ID = int(getenv("OWNER_ID", 7980630836))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Itzz_Istkhar")
-BOT_USERNAME = getenv("BOT_USERNAME", "Sukku_Music_Bot")
-BOT_NAME = getenv("BOT_NAME", "Sonali Music")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Power_of_Jani")
+BOT_USERNAME = getenv("BOT_USERNAME", "Jani_Music_Robot")
+BOT_NAME = getenv("BOT_NAME", "Jani Music")
 ASSUSERNAME = getenv("ASSUSERNAME")
 
 # ======================================================
@@ -43,13 +43,13 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ======================================================
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Itzz-Sukku/sukoo")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/JaniPrivetRepo/Jani-RP-143")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # ======================================================
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/IamIstkhar")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/THUNDERDEVS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Selfish_Jani_Lover")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+a3O_RK3xMbA1ZGZl")
 
 # ======================================================
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "1c21247d714244ddbb09925dac565aed")
@@ -65,8 +65,8 @@ STRING6 = getenv("STRING_SESSION6", None)
 STRING7 = getenv("STRING_SESSION7", None)
 
 # ======================================================
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/x5lytj.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/leaexg.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://litter.catbox.moe/dw2dv2.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://litter.catbox.moe/dw2dv2.jpg")
 
 PLAYLIST_IMG_URL = "https://files.catbox.moe/b0e4vk.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/psya34.jpg"
