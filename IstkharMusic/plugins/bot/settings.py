@@ -11,8 +11,8 @@ from pyrogram.types import (
     Message,
 )
 
-from IstkharMusic import app
-from IstkharMusic.utils.database import (
+from srkMusic import app
+from srkMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -28,15 +28,15 @@ from IstkharMusic.utils.database import (
     skip_off,
     skip_on,
 )
-from IstkharMusic.utils.decorators.admins import ActualAdminCB
-from IstkharMusic.utils.decorators.language import language, languageCB
-from IstkharMusic.utils.inline.settings import (
+from srkMusic.utils.decorators.admins import ActualAdminCB
+from srkMusic.utils.decorators.language import language, languageCB
+from srkMusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from IstkharMusic.utils.inline.start import private_panel
+from srkMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 
