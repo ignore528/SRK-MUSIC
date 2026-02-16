@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from IstkharMusic import app
-from IstkharMusic.core.call import Istu
-from IstkharMusic.misc import SUDOERS, db
-from IstkharMusic.utils import AdminRightsCheck
-from IstkharMusic.utils.database import is_active_chat, is_nonadmin_chat
-from IstkharMusic.utils.decorators.language import languageCB
-from IstkharMusic.utils.inline import close_markup, speed_markup
+from srkMusic import app
+from srkMusic.core.call import Istu
+from srkMusic.misc import SUDOERS, db
+from srkMusic.utils import AdminRightsCheck
+from srkMusic.utils.database import is_active_chat, is_nonadmin_chat
+from srkMusic.utils.decorators.language import languageCB
+from srkMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
