@@ -1,5 +1,5 @@
-from IstkharMusic import app
-from IstkharMusic.utils.database import get_cmode
+from srkMusic import app
+from srkMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
