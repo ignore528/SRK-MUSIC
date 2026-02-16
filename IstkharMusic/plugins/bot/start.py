@@ -8,12 +8,12 @@ from py_yt import VideosSearch
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 import config
-from IstkharMusic import app
-from IstkharMusic.misc import _boot_
-from IstkharMusic.plugins.sudo.sudoers import sudoers_list
-from IstkharMusic.utils.database import get_served_chats, get_served_users, get_sudoers
-from IstkharMusic.utils import bot_sys_stats
-from IstkharMusic.utils.database import (
+from srkMusic import app
+from srkMusic.misc import _boot_
+from srkMusic.plugins.sudo.sudoers import sudoers_list
+from srkMusic.utils.database import get_served_chats, get_served_users, get_sudoers
+from srkMusic.utils import bot_sys_stats
+from srkMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -21,9 +21,9 @@ from IstkharMusic.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from IstkharMusic.utils.decorators.language import LanguageStart
-from IstkharMusic.utils.formatters import get_readable_time
-from IstkharMusic.utils.inline import help_pannel, private_panel, start_panel
+from srkMusic.utils.decorators.language import LanguageStart
+from srkMusic.utils.formatters import get_readable_time
+from srkMusic.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
