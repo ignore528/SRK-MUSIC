@@ -3,7 +3,7 @@
 </p>
 
 <h2 align="center">
-    ───「 sᴜᴋᴋᴜ ᴍᴜsɪᴄ 」───
+    ───「 sʀᴋ ꭙ ϻᴜsɪᴄ 」───
 </h2>
 
 <p align="center">
