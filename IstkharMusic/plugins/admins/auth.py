@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from IstkharMusic import app
-from IstkharMusic.utils import extract_user, int_to_alpha
-from IstkharMusic.utils.database import (
+from srkMusic import app
+from srkMusic.utils import extract_user, int_to_alpha
+from srkMusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from IstkharMusic.utils.decorators import AdminActual, language
-from IstkharMusic.utils.inline import close_markup
+from srkMusic.utils.decorators import AdminActual, language
+from srkMusic.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
