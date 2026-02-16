@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from IstkharMusic import app
-from IstkharMusic.misc import db
-from IstkharMusic.utils import IstuBin, get_channeplayCB, seconds_to_min
-from IstkharMusic.utils.database import get_cmode, is_active_chat, is_music_playing
-from IstkharMusic.utils.decorators.language import language, languageCB
-from IstkharMusic.utils.inline import queue_back_markup, queue_markup
+from srkMusic import app
+from srkMusic.misc import db
+from srkMusic.utils import IstuBin, get_channeplayCB, seconds_to_min
+from srkMusic.utils.database import get_cmode, is_active_chat, is_music_playing
+from srkMusic.utils.decorators.language import language, languageCB
+from srkMusic.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
