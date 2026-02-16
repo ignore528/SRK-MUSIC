@@ -108,9 +108,9 @@ async def get_thumb(videoid):
         draw = ImageDraw.Draw(image1)
 
         try:
-            font_title = ImageFont.truetype("IstkharMusic/assets/font.ttf", 45)
-            font_details = ImageFont.truetype("IstkharMusic/assets/font2.ttf", 30)
-            font_watermark = ImageFont.truetype("IstkharMusic/assets/font2.ttf", 25)
+            font_title = ImageFont.truetype("srkMusic/assets/font.ttf", 45)
+            font_details = ImageFont.truetype("srkMusic/assets/font2.ttf", 30)
+            font_watermark = ImageFont.truetype("srkMusic/assets/font2.ttf", 25)
         except:
             font_title = ImageFont.truetype("arial.ttf", 45)
             font_details = ImageFont.truetype("arial.ttf", 30)
@@ -137,7 +137,7 @@ async def get_thumb(videoid):
             stroke_fill="black",
         )
 
-        stats_text = f"YouTube : {views} | Time : {duration} | Player : @Jani_Music_Robot"
+        stats_text = f"YouTube : {views} | Time : {duration} | Player : @srkMusicbot"
         w_stats = get_text_width(stats_text, font_details)
         draw.text(
             ((1280 - w_stats) / 2, text_y_pos + 70),
@@ -148,7 +148,7 @@ async def get_thumb(videoid):
             stroke_fill="black",
         )
 
-        text_classy = "Jani Bots"
+        text_classy = "srk Bots"
         w_classy = get_text_width(text_classy, font_watermark)
 
         draw.text(
@@ -162,7 +162,7 @@ async def get_thumb(videoid):
 
         draw.text(
             (30, 680),
-            text="@Power_of_Jani",
+            text="Ignore_sheikh",
             fill="white",
             font=font_watermark,
             stroke_width=1,
