@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from IstkharMusic import app
-from IstkharMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from IstkharMusic.utils.decorators import language
-from IstkharMusic.utils.inline.settings import playmode_users_markup
+from srkMusic import app
+from srkMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from srkMusic.utils.decorators import language
+from srkMusic.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
