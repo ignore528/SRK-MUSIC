@@ -14,8 +14,8 @@ class Helper(object):
 » ᴘʀɪᴠᴧᴛє & sєᴄυʀє sσᴜʀᴄє | ηᴏ ᴅᴧᴛᴧ sʜᴧʀᴇ
 » ʟɪᴄєηᴄєᴅ ᴜsє | ʏσυтυʙє ᴀᴘɪ sυᴘᴘσʀтєᴅ 
 ──────────────────────
-➤ ʙσᴛ sᴛᴧᴛυs & ϻσʀє ʙσᴛs - [ᴄʟɪᴄᴋ ʜєʀє](https://t.me/+a3O_RK3xMbA1ZGZl)
-➤ ᴘᴧɪᴅ ᴘʀσϻσᴛɪση :- [ᴄσηᴛᴧᴄᴛ ʜєʀє](https://t.me/Power_of_Jani)
+➤ ʙσᴛ sᴛᴧᴛυs & ϻσʀє ʙσᴛs - [ᴄʟɪᴄᴋ ʜєʀє](https://t.me/+xbY6_3uCrrtlZTY9)
+➤ ᴘᴧɪᴅ ᴘʀσϻσᴛɪση :- [ᴄσηᴛᴧᴄᴛ ʜєʀє](https://t.me/ignore_sheikh)
 ─────────────────────────**
 '''
     
@@ -26,9 +26,9 @@ class Helper(object):
 ● ᴋᴇᴇᴘ ᴄʜᴧᴛ ᴄʟєᴧη ᴧηᴅ ʙᴜɢ-ғʀєє.
 ● ᴧηʏ ᴘʀσʙʟєϻ ? ᴊᴜsᴛ ᴄσηᴛᴧᴄᴛ ᴜs.
 ─────────────────────────
-❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [˹ᴊᴀɴɪ ʙᴏᴛѕ˼](https://t.me/Power_of_Jani)
-❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [˹ᴜᴘᴅᴀᴛᴇ ʙᴏᴛꜱ˼](https://t.me/Selfish_Jani_Lover)
-❖ ɢɪᴛ ʜᴜʙ ʟɪηᴋ ➥ [ᴄʜᴀᴛ ɢʀᴏᴜᴘ](https://t.me/+a3O_RK3xMbA1ZGZl)
+❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [˹ᴊᴀɴɪ ʙᴏᴛѕ˼](https://t.me/ignore_sheikh)
+❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [˹ᴜᴘᴅᴀᴛᴇ ʙᴏᴛꜱ˼](https://t.me/updateSrk)
+❖ ɢɪᴛ ʜᴜʙ ʟɪηᴋ ➥ [ᴄʜᴀᴛ ɢʀᴏᴜᴘ](https://t.me/+xbY6_3uCrrtlZTY9)
 ─────────────────────────**
 '''
 
@@ -44,7 +44,7 @@ class Helper(object):
 /setphoto : sᴇᴛ ɢʀᴏᴜᴘ ᴘʜᴏᴛᴏ
 /rmphoto : ʀᴇᴍᴏᴠᴇ ɢʀᴏᴜᴘ ᴘʜᴏᴛᴏ
 
-**⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- [˹ᴊᴀɴɪ ʙᴏᴛѕ˼](https://t.me/Power_of_Jani)**
+**⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- [˹sʀᴋ ꭙ ϻᴜsɪᴄ˼](https://t.me/ignore_sheikh)**
 '''
 
     HELP_MOD = '''
@@ -56,7 +56,7 @@ class Helper(object):
 /unbanall : ᴜɴʙᴀɴ ᴀʟʟ ʙᴀɴɴᴇᴅ ᴍᴇᴍʙᴇʀs
 /unpinall : ᴜɴᴘɪɴ ᴀʟʟ ᴘɪɴɴᴇᴅ ᴍᴇssᴀɢᴇs
 
-**⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- [˹ᴊᴀɴɪ ʙᴏᴛѕ˼](https://t.me/Power_of_Jani)**
+**⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- [˹sʀᴋ ꭙ ϻᴜsɪᴄ˼](https://t.me/ignore_sheikh)**
 '''
     
     HELP_WEL = '''
@@ -65,7 +65,7 @@ class Helper(object):
 /welcome on : ᴇɴᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ
 /welcome off : ᴅɪsᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ
 
-**⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- [˹ᴊᴀɴɪ ʙᴏᴛѕ˼](https://t.me/Power_of_Jani)**
+**⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- [˹sʀᴋ ꭙ ϻᴜsɪᴄ˼](https://t.me/ignore_sheikh)**
 '''
 
     HELP_VC = '''
@@ -74,7 +74,7 @@ class Helper(object):
 /vclogger on : ᴠᴄ ʟᴏɢɢᴇʀ ᴏɴ
 /vclogger off : ᴠᴄ ʟᴏɢɢᴇʀ ᴏғғ
 
-**⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- [˹ᴊᴀɴɪ ʙᴏᴛѕ˼](https://t.me/Power_of_Jani)**
+**⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- [˹sʀᴋ ꭙ ϻᴜsɪᴄ˼](https://t.me/ignore_sheikh)**
 '''
 
     HELP_ADMIN = '''
@@ -84,7 +84,7 @@ class Helper(object):
 /demote : ᴅᴇᴍᴏᴛᴇ ᴜsᴇʀ ᴀɴ ᴀᴅᴍɪɴ
 /fullpromote : ᴘʀᴏᴍᴏᴛᴇ ᴜsᴇʀs ᴀᴅᴍɪɴ ᴡɪᴛʜ ғᴜʟʟ ʀɪɢʜᴛs
 
-**⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- [˹ᴊᴀɴɪ ʙᴏᴛѕ˼](https://t.me/Power_of_Jani)**
+**⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- [˹sʀᴋ ꭙ ϻᴜsɪᴄ˼](https://t.me/ignore_sheikh)**
 '''
 
 
@@ -97,5 +97,5 @@ class Helper(object):
 /unmute : ᴜɴᴍᴜᴛᴇ ᴀ ᴜsᴇʀ
 /tmute : ᴛɪᴍɪɴɢ ᴍᴜᴛᴇ 
 
-**⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- [˹ᴊᴀɴɪ ʙᴏᴛѕ˼](https://t.me/Power_of_Jani)**
+**⊚ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- [˹sʀᴋ ꭙ ϻᴜsɪᴄ˼](https://t.me/ignore_sheikh)**
     '''
