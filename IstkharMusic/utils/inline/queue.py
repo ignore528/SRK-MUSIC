@@ -1,6 +1,6 @@
 from typing import Union
-from IstkharMusic import app
-from IstkharMusic.utils.formatters import time_to_seconds
+from srkMusic import app
+from srkMusic.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 def queue_markup(
@@ -68,11 +68,11 @@ def aq_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text="ᴊᴏɪɴ ɴᴏᴡ",
-                url=f"https://t.me/Selfish_Jani_Lover"
+                url=f"https://t.me/updateSrk"
             ),
             InlineKeyboardButton(
                 text="ɢʀᴏᴜᴘ ᴄʜᴧᴛ",
-                url="https://t.me/+a3O_RK3xMbA1ZGZl"
+                url="https://t.me/+xbY6_3uCrrtlZTY9"
             ),
         ],
         [
