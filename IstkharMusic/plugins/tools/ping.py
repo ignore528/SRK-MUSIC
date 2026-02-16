@@ -1,14 +1,14 @@
 from datetime import datetime
 from pyrogram.types import Message
 from config import *
-from IstkharMusic import app
-from IstkharMusic.core.call import Istu
-from IstkharMusic.utils import bot_sys_stats
-from IstkharMusic.utils.decorators.language import language
-from IstkharMusic.utils.inline import supp_markup
+from srkMusic import app
+from srkMusic.core.call import Istu
+from srkMusic.utils import bot_sys_stats
+from srkMusic.utils.decorators.language import language
+from srkMusic.utils.inline import supp_markup
 from config import BANNED_USERS
 from pyrogram import Client, filters
-from IstkharMusic.misc import SUDOERS
+from srkMusic.misc import SUDOERS
 
 
 @app.on_message(filters.command("ping", prefixes=["/", "!"]) & ~BANNED_USERS)
