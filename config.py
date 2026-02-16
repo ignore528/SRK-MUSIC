@@ -15,9 +15,9 @@ BOT_TOKEN = getenv("BOT_TOKEN", None)
 
 # ======================================================
 OWNER_ID = int(getenv("OWNER_ID", 7980630836))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Power_of_Jani")
-BOT_USERNAME = getenv("BOT_USERNAME", "Jani_Music_Robot")
-BOT_NAME = getenv("BOT_NAME", "Jani Music")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "IGNORE_SHEIKH ")
+BOT_USERNAME = getenv("BOT_USERNAME", "srkMusicBot")
+BOT_NAME = getenv("BOT_NAME", "srk Music")
 ASSUSERNAME = getenv("ASSUSERNAME")
 
 # ======================================================
@@ -48,8 +48,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # ======================================================
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Selfish_Jani_Lover")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+a3O_RK3xMbA1ZGZl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/updateSrk")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/srkAbout")
 
 # ======================================================
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "1c21247d714244ddbb09925dac565aed")
