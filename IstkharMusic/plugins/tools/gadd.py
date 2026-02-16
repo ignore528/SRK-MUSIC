@@ -2,8 +2,8 @@ import asyncio
 from config import OWNER_ID
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from IstkharMusic import app
-from IstkharMusic.utils.database import add_served_chat, get_assistant
+from srkMusic import app
+from srkMusic.utils.database import add_served_chat, get_assistant
 
 
 @app.on_message(filters.command("gadd") & filters.user(int(OWNER_ID)))
