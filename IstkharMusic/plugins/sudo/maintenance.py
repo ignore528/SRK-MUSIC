@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from IstkharMusic import app
-from IstkharMusic.misc import SUDOERS
-from IstkharMusic.utils.database import (
+from srkMusic import app
+from srkMusic.misc import SUDOERS
+from srkMusic.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
