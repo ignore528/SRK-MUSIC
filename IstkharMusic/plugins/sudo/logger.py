@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from IstkharMusic import app
-from IstkharMusic.misc import SUDOERS
-from IstkharMusic.utils.database import add_off, add_on
-from IstkharMusic.utils.decorators.language import language
+from srkMusic import app
+from srkMusic.misc import SUDOERS
+from srkMusic.utils.database import add_off, add_on
+from srkMusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
