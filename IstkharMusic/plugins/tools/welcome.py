@@ -4,7 +4,7 @@ from logging import getLogger
 from pyrogram import filters, enums
 from pyrogram.types import ChatMemberUpdated, Message
 
-from IstkharMusic import app
+from srkMusic import app
 
 LOGGER = getLogger(__name__)
 
