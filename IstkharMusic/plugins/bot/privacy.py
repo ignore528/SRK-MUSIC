@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from IstkharMusic import app
+from srkMusic import app
 
 @app.on_message(filters.command("privacy"))
 async def privacy_command(client: Client, message: Message):
