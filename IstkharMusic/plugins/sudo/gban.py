@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from IstkharMusic import app
-from IstkharMusic.misc import SUDOERS
-from IstkharMusic.utils import get_readable_time
-from IstkharMusic.utils.database import (
+from srkMusic import app
+from srkMusic.misc import SUDOERS
+from srkMusic.utils import get_readable_time
+from srkMusic.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
