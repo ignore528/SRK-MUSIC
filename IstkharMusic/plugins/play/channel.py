@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from IstkharMusic import app
-from IstkharMusic.utils.database import set_cmode
-from IstkharMusic.utils.decorators.admins import AdminActual
+from srkMusic import app
+from srkMusic.utils.database import set_cmode
+from srkMusic.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 
