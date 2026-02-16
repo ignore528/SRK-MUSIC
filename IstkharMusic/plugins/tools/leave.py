@@ -7,7 +7,7 @@ from pyrogram.types import Message
 
 import config
 from config import OWNER_ID
-from IstkharMusic import app, userbot
+from srkMusic import app, userbot
 
 
 @app.on_message(filters.command(["leaveallone"]) & filters.user(OWNER_ID))
