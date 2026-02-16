@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from IstkharMusic import app
-from IstkharMusic.core.userbot import assistants
-from IstkharMusic.misc import SUDOERS, mongodb
-from IstkharMusic.plugins import ALL_MODULES
-from IstkharMusic.utils.database import get_served_chats, get_served_users, get_sudoers
-from IstkharMusic.utils.decorators.language import language, languageCB
-from IstkharMusic.utils.inline.stats import back_stats_buttons, stats_buttons
+from srkMusic import app
+from srkMusic.core.userbot import assistants
+from srkMusic.misc import SUDOERS, mongodb
+from srkMusic.plugins import ALL_MODULES
+from srkMusic.utils.database import get_served_chats, get_served_users, get_sudoers
+from srkMusic.utils.decorators.language import language, languageCB
+from srkMusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
