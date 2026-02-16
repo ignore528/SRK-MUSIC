@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from IstkharMusic import app
-from IstkharMusic.utils.database import is_on_off
+from srkMusic import app
+from srkMusic.utils.database import is_on_off
 from config import LOGGER_ID
 
 
