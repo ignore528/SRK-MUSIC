@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from IstkharMusic import app
-from IstkharMusic.misc import SUDOERS
-from IstkharMusic.utils.database import autoend_off, autoend_on
+from srkMusic import app
+from srkMusic.misc import SUDOERS
+from srkMusic.utils.database import autoend_off, autoend_on
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)
