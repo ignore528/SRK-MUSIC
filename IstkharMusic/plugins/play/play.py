@@ -6,14 +6,14 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from IstkharMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from IstkharMusic.core.call import Istu
-from IstkharMusic.utils import seconds_to_min, time_to_seconds
-from IstkharMusic.utils.channelplay import get_channeplayCB
-from IstkharMusic.utils.decorators.language import languageCB
-from IstkharMusic.utils.decorators.play import PlayWrapper
-from IstkharMusic.utils.formatters import formats
-from IstkharMusic.utils.inline import (
+from srkMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from srkMusic.core.call import Istu
+from srkMusic.utils import seconds_to_min, time_to_seconds
+from srkMusic.utils.channelplay import get_channeplayCB
+from srkMusic.utils.decorators.language import languageCB
+from srkMusic.utils.decorators.play import PlayWrapper
+from srkMusic.utils.formatters import formats
+from srkMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
