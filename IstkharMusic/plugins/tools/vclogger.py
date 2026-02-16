@@ -5,10 +5,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 from pytgcalls.types import UpdatedGroupCallParticipant, GroupCallParticipant
 from pytgcalls import filters as fl
-from IstkharMusic import app, userbot
-from IstkharMusic.core.call import Istu
-from IstkharMusic.utils.database import is_vc_logger, set_vc_logger, get_served_chats
-from IstkharMusic.misc import SUDOERS
+from srkMusic import app, userbot
+from srkMusic.core.call import Istu
+from srkMusic.utils.database import is_vc_logger, set_vc_logger, get_served_chats
+from srkMusic.misc import SUDOERS
 from config import adminlist
 
 logger = logging.getLogger(__name__)
