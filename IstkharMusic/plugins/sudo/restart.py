@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from IstkharMusic import app
-from IstkharMusic.misc import HAPP, SUDOERS, XCB
-from IstkharMusic.utils.database import (
+from srkMusic import app
+from srkMusic.misc import HAPP, SUDOERS, XCB
+from srkMusic.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from IstkharMusic.utils.decorators.language import language
-from IstkharMusic.utils.pastebin import IstuBin
+from srkMusic.utils.decorators.language import language
+from srkMusic.utils.pastebin import IstuBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
