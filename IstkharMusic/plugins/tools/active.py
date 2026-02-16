@@ -2,9 +2,9 @@ from pyrogram import filters, Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from unidecode import unidecode
 
-from IstkharMusic import app
-from IstkharMusic.misc import SUDOERS
-from IstkharMusic.utils.database import (
+from srkMusic import app
+from srkMusic.misc import SUDOERS
+from srkMusic.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,
