@@ -2,10 +2,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
-from IstkharMusic import YouTube, app
-from IstkharMusic.core.call import Istu
-from IstkharMusic.misc import SUDOERS, db
-from IstkharMusic.utils.database import (
+from srkMusic import YouTube, app
+from srkMusic.core.call import Istu
+from srkMusic.misc import SUDOERS, db
+from srkMusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -22,12 +22,12 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from IstkharMusic.utils.database import get_assistant
-from IstkharMusic.utils.decorators.language import languageCB
-from IstkharMusic.utils.formatters import seconds_to_min
-from IstkharMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
-from IstkharMusic.utils.stream.autoclear import auto_clean
-from IstkharMusic.utils.thumbnails import get_thumb
+from srkMusic.utils.database import get_assistant
+from srkMusic.utils.decorators.language import languageCB
+from srkMusic.utils.formatters import seconds_to_min
+from srkMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from srkMusic.utils.stream.autoclear import auto_clean
+from srkMusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
