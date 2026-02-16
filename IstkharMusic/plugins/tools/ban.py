@@ -2,7 +2,7 @@ from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ChatPermissions
 from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired, UserAdminInvalid, BadRequest
 import datetime
-from IstkharMusic import app
+from srkMusic import app
 
 
 def mention(user, name, mention=True):
