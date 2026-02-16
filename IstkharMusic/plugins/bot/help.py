@@ -4,15 +4,15 @@ import random
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message, InputMediaPhoto
 
-from IstkharMusic import app
-from IstkharMusic.utils import help_pannel
-from IstkharMusic.utils.database import get_lang
-from IstkharMusic.utils.decorators.language import LanguageStart, languageCB
-from IstkharMusic.utils.inline.help import help_back_markup, private_help_panel
+from srkMusic import app
+from srkMusic.utils import help_pannel
+from srkMusic.utils.database import get_lang
+from srkMusic.utils.decorators.language import LanguageStart, languageCB
+from srkMusic.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
-from IstkharMusic.utils.stuffs.buttons import BUTTONS
-from IstkharMusic.utils.stuffs.helper import Helper
+from srkMusic.utils.stuffs.buttons import BUTTONS
+from srkMusic.utils.stuffs.helper import Helper
 
 
 START_IMG = [
