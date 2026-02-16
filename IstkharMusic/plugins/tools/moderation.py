@@ -1,7 +1,7 @@
-from IstkharMusic import app
+from srkMusic import app
 from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from IstkharMusic.utils.Istu_ban import admin_filter
+from srkMusic.utils.Istu_ban import admin_filter
 from pyrogram.types import ChatPermissions
 from pyrogram.errors import FloodWait
 import asyncio
