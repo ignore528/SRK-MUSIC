@@ -2,10 +2,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from IstkharMusic import app
-from IstkharMusic.misc import db
-from IstkharMusic.utils.decorators import AdminRightsCheck
-from IstkharMusic.utils.inline import close_markup
+from srkMusic import app
+from srkMusic.misc import db
+from srkMusic.utils.decorators import AdminRightsCheck
+from srkMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
