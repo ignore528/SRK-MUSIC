@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from IstkharMusic import app
-from IstkharMusic.misc import SUDOERS
-from IstkharMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from IstkharMusic.utils.decorators.language import language
+from srkMusic import app
+from srkMusic.misc import SUDOERS
+from srkMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from srkMusic.utils.decorators.language import language
 from config import BANNED_USERS
 
 
