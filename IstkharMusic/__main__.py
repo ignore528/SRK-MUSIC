@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from IstkharMusic import LOGGER, app, userbot
-from IstkharMusic.core.call import Istu
-from IstkharMusic.misc import sudo
-from IstkharMusic.plugins import ALL_MODULES
-from IstkharMusic.utils.database import get_banned_users, get_gbanned
+from srkMusic import LOGGER, app, userbot
+from srkMusic.core.call import Istu
+from srkMusic.misc import sudo
+from srkMusic.plugins import ALL_MODULES
+from srkMusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -35,27 +35,28 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("IstkharMusic.plugins" + all_module)
-    LOGGER("IstkharMusic.plugins").info("𝗔𝗟𝗟 𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗟𝗢𝗔𝗗𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬....🥳..")
+        #importlib.import_module("IstkharMusic.plugins" + all_module)
+        importlib.import_module("SRKMusic.plugins" + all_module)
+    LOGGER("SrkMusic.plugins").info("𝗔𝗟𝗟 𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗟𝗢𝗔𝗗𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬....🥳..")
     await userbot.start()
     await Istu.start()
     try:
         await Istu.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("IstkharMusic").error(
+        LOGGER("SrkMusic").error(
             "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣/𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧... 😒\n\n𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........🤕"
         )
         exit()
     except:
         pass
     await Istu.decorators()
-    LOGGER("IstkharMusic").info(
+    LOGGER("SrkMusic").info(
         "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎ 𝗠𝗔𝗗𝗘 𝗕𝗬 𝗩𝗔𝗠𝗣𝗜𝗥𝗘 ☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("IstkharMusic").info("𝗦𝗧𝗢𝗣 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧...🥹")
+    LOGGER("SrkMusic").info("𝗦𝗧𝗢𝗣 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧...🥹")
 
 
 if __name__ == "__main__":
