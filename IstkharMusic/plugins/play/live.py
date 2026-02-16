@@ -1,9 +1,9 @@
 from pyrogram import filters
 import random
-from IstkharMusic import YouTube, app
-from IstkharMusic.utils.channelplay import get_channeplayCB
-from IstkharMusic.utils.decorators.language import languageCB
-from IstkharMusic.utils.stream.stream import stream
+from srkMusic import YouTube, app
+from srkMusic.utils.channelplay import get_channeplayCB
+from srkMusic.utils.decorators.language import languageCB
+from srkMusic.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
