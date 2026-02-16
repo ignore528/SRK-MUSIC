@@ -43,7 +43,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ======================================================
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/JaniPrivetRepo/Jani-RP-143")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "IGNORE KA LAND LE LO")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -65,8 +65,8 @@ STRING6 = getenv("STRING_SESSION6", None)
 STRING7 = getenv("STRING_SESSION7", None)
 
 # ======================================================
-START_IMG_URL = getenv("START_IMG_URL", "https://litter.catbox.moe/dw2dv2.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://litter.catbox.moe/dw2dv2.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/j5y9f6.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/j5y9f6.jpg")
 
 PLAYLIST_IMG_URL = "https://files.catbox.moe/b0e4vk.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/psya34.jpg"
